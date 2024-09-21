@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Restaurante de Makis y Comida Japonesa</title>
+    <style>
+        *{ 
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: #ffffff;
+        }
+        .areaPrincipal {
+            background-image: url(../Img/fondo.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: auto;
+            opacity: 0.85;
+            background-size: 100% 100%;
+        }
+        #encabezado {
+            background: #202020;
+            height: 250px;
+            text-align: center;
+            background-image: url(../Img/Logo.png);
+            background-repeat: no-repeat;
+            background-size: 280px 250px;
+            background-position: center center;
+        }
+        #menu {
+            height: 100px;
+            position: absolute;
+            width: 100%;
+            top: 202px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: rgb(207, 6, 6);
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+        #datos {
+            width: 80%;
+            background-color: #312e2e;
+            margin: auto;
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.87);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .mapa {
+            margin: 20px 0;
+            width: 100%;
+            height: 400px;
+        }
+        .piePagina {
+            width: 100%;
+            height: 100px;
+            background: #15101b;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1em;
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="encabezado"></div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="../index.html" title="Página principal">Inicio</a></li>
+            <li><a href="nosotros.html" title="Descripción del negocio">Nosotros</a></li>
+            <li><a href="catalogo.html" title="Catálogo">Nuestros productos</a></li>
+            <li><a href="galeria.html" title="Fotos">Galería</a></li>
+            <li><a href="contacto.html" title="Nuestros datos">Contacto</a></li>
+        </ul>
+    </div>
+
+    <div class="areaPrincipal">
+        <div id="datos">
+            <h1>Contacto</h1>
+            <p><strong>Dirección:</strong> Av. 1a. Sur Ote. 734, Asamblea de barrio, San Roque, 29040 Tuxtla Gutiérrez, Chis.</p>
+            <p><strong>Correo Electrónico:</strong> carlos.serrano73@unach.mx</p>
+            <p><strong>Teléfono:</strong> 961 200 9289</p>
+            <p><strong>Nombre del Dueño:</strong> Carlos Adrián Serranio Samayoa</p>
+
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.500700626566!2d-93.11095390000001!3d16.7517468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd8895b9db3db%3A0xa66800bdf6dbb46c!2sMakiroll!5e0!3m2!1ses-419!2smx!4v1726897934584!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer class="piePagina">
+        <p>&copy; 2024 Sakura Makis. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

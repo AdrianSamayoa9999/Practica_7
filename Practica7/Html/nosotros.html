@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - Restaurante de Makis y Comida Japonesa</title>
+    <style>
+        *{ 
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: #f0f0f0;
+        }
+        .areaPrincipal {
+            background-image: url(../Img/fondo.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: auto;
+            opacity: 0.85;
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -moz-background-size: 100% 100% ;
+            background-size: 100% 100%;
+        }
+        #encabezado {
+            background: #202020;
+            height: 250px;
+            text-align: center;
+            background-image: url(../Img/Logo.png);
+            background-repeat: no-repeat;
+            background-size: 280px 250px;
+            background-position: center center;
+        }
+        #menu {
+            height: 100px;
+            position: absolute;
+            width: 100%;
+            top: 202px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: rgb(207, 6, 6);
+        }
+        li {
+            float: left;
+        
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+        #datos {
+            width: 80%;
+            background-color: #312e2e;
+            height: 600px;
+            margin: auto;
+            padding: 10px;
+            opacity: 1;
+            color: rgba(255, 255, 255, 0.87);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .piePagina {
+            width: 100%;
+            height: 100px;
+            background: #15101b;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1em;
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="encabezado"></div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="../index.html" title="Pagina principal">Inicio</a></li>
+            <li><a href="nosotros.html" title="Descripción del negocio">Nosotros</a></li>
+            <li><a href="catalogo.html" title="Catálogo">Nuestros productos</a></li>
+            <li><a href="galeria.html" title="Fotos">Galería</a></li>
+            <li><a href="contacto.html" title="Nuestros datos">Contacto</a></li>
+        </ul>
+    </div>
+
+    <div class="areaPrincipal">
+        <div id="datos">
+            <h1>Sobre Nosotros</h1>
+
+            <section>
+                <h2>Descripción del Negocio</h2>
+                <p>En <strong>Sakura Makis</strong>, somos un restaurante especializado en la auténtica comida japonesa, ofreciendo una experiencia gastronómica inolvidable. Fundado en 2010, nuestra pasión por la cultura japonesa y su cocina nos ha llevado a ser uno de los referentes en la preparación de makis y platillos tradicionales.</p>
+                <p>Cada uno de nuestros platillos es una obra maestra que combina frescura, tradición y creatividad, utilizando los ingredientes más frescos y de la más alta calidad. Nos esforzamos por brindar un ambiente acogedor y auténtico, donde nuestros comensales puedan disfrutar de una inmersión total en la cultura japonesa.</p>
+            </section>
+
+            <section>
+                <h2>Misión</h2>
+                <p>Nuestra misión es proporcionar a nuestros clientes una experiencia culinaria única que combina la tradición japonesa con un toque moderno. Queremos ser reconocidos por nuestra calidad, servicio excepcional y nuestro compromiso de ofrecer lo mejor de la gastronomía japonesa en cada platillo que servimos.</p>
+            </section>
+
+            <section>
+                <h2>Visión</h2>
+                <p>Nuestra visión es convertirnos en el restaurante de comida japonesa líder en la región, siendo el primer destino para los amantes del sushi y los makis. Buscamos expandir nuestra presencia manteniendo siempre la esencia de nuestra cocina y continuando con nuestra pasión por innovar y deleitar a nuestros clientes.</p>
+            </section>
+        </div>
+    </div>
+
+    <footer class="piePagina">
+        <p>&copy; 2024 Sakura Makis. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

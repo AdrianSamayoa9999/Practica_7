@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Productos - Restaurante de Makis y Comida Japonesa</title>
+    <style>
+        *{ 
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: #ffffff;
+        }
+        .areaPrincipal {
+            background-image: url(../Img/fondo.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: auto;
+            opacity: 0.85;
+            background-size: 100% 100%;
+        }
+        #encabezado {
+            background: #202020;
+            height: 250px;
+            text-align: center;
+            background-image: url(../Img/Logo.png);
+            background-repeat: no-repeat;
+            background-size: 280px 250px;
+            background-position: center center;
+        }
+        #menu {
+            height: 100px;
+            position: absolute;
+            width: 100%;
+            top: 202px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: rgb(207, 6, 6);
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+        #datos {
+            width: 80%;
+            background-color: #312e2e;
+            margin: auto;
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.87);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .producto {
+            background-color: #474343;
+            border-radius: 8px;
+            margin: 20px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .piePagina {
+            width: 100%;
+            height: 100px;
+            background: #15101b;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1em;
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="encabezado"></div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="../index.html" title="Página principal">Inicio</a></li>
+            <li><a href="nosotros.html" title="Descripción del negocio">Nosotros</a></li>
+            <li><a href="catalogo.html" title="Catálogo">Nuestros productos</a></li>
+            <li><a href="galeria.html" title="Fotos">Galería</a></li>
+            <li><a href="contacto.html" title="Nuestros datos">Contacto</a></li>
+        </ul>
+    </div>
+
+    <div class="areaPrincipal">
+        <div id="datos">
+            <h1>Nuestros Productos</h1>
+
+            <div class="producto">
+                <img src="../Img/food1.jpg" alt="Makis con Queso Crema y Aguacate" />
+                <h2>Makis con Queso Crema y Aguacate</h2>
+                <p><strong>Precio:</strong> $90</p>
+                <p><strong>Ingredientes:</strong> Arroz, alga nori, queso crema, aguacate, sésamo.</p>
+            </div>
+
+            <div class="producto">
+                <img src="../Img/food2.jpg" alt="Salmón con Espárragos y Salsa Teriyaki" />
+                <h2>Salmón con Espárragos y Salsa Teriyaki</h2>
+                <p><strong>Precio:</strong> $100</p>
+                <p><strong>Ingredientes:</strong> Arroz, salmón fresco, espárragos, alga nori, salsa teriyaki.</p>
+            </div>
+
+            <div class="producto">
+                <img src="../Img/food3.jpg" alt="Makis de Arroz y Alga" />
+                <h2>Makis de Arroz y Alga</h2>
+                <p><strong>Precio:</strong> $70</p>
+                <p><strong>Ingredientes:</strong> Arroz, alga nori, vinagre de arroz.</p>
+            </div>
+
+            <div class="producto">
+                <img src="../Img/food4.jpg" alt="Makis de Queso Crema y Salmón" />
+                <h2>Makis de Queso Crema y Salmón</h2>
+                <p><strong>Precio:</strong> $95</p>
+                <p><strong>Ingredientes:</strong> Arroz, alga nori, queso crema, salmón, aguacate.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="piePagina">
+        <p>&copy; 2024 Sakura Makis. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

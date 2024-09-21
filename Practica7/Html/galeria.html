@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Restaurante de Makis y Comida Japonesa</title>
+    <style>
+        *{ 
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: #ffffff;
+        }
+        .areaPrincipal {
+            background-image: url(../Img/fondo.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: auto;
+            opacity: 0.85;
+            background-size: 100% 100%;
+        }
+        #encabezado {
+            background: #202020;
+            height: 250px;
+            text-align: center;
+            background-image: url(../Img/Logo.png);
+            background-repeat: no-repeat;
+            background-size: 280px 250px;
+            background-position: center center;
+        }
+        #menu {
+            height: 100px;
+            position: absolute;
+            width: 100%;
+            top: 202px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: rgb(207, 6, 6);
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+        #datos {
+            width: 80%;
+            background-color: #312e2e;
+            margin: auto;
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.87);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .foto {
+            margin: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .foto img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .descripcion {
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #ffffff;
+        }
+        .piePagina {
+            width: 100%;
+            height: 100px;
+            background: #15101b;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1em;
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="encabezado"></div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="../index.html" title="Página principal">Inicio</a></li>
+            <li><a href="nosotros.html" title="Descripción del negocio">Nosotros</a></li>
+            <li><a href="catalogo.html" title="Catálogo">Nuestros productos</a></li>
+            <li><a href="galeria.html" title="Fotos">Galería</a></li>
+            <li><a href="contacto.html" title="Nuestros datos">Contacto</a></li>
+        </ul>
+    </div>
+
+    <div class="areaPrincipal">
+        <div id="datos">
+            <h1>Galería</h1>
+            <div class="galeria">
+                <div class="foto">
+                    <img src="../Img/customers.jpg" alt="Ambiente del restaurante" />
+                    <div class="descripcion">Un ambiente acogedor donde disfrutar de nuestros deliciosos makis.</div>
+                </div>
+                <div class="foto">
+                    <img src="../Img/kitchen.jpg" alt="Preparación de makis" />
+                    <div class="descripcion">La magia de la cocina: preparación de nuestros makis frescos.</div>
+                </div>
+                <div class="foto">
+                    <img src="../Img/dish.jpg" alt="Plato de makis" />
+                    <div class="descripcion">Plato especial de makis, una explosión de sabores.</div>
+                </div>
+                <div class="foto">
+                    <img src="../Img/variety.jpg" alt="Sushi variado" />
+                    <div class="descripcion">Variedad de sushi para satisfacer todos los gustos.</div>
+                </div>
+                <div class="foto">
+                    <img src="../Img/eat.jpg" alt="Comensales disfrutando" />
+                    <div class="descripcion">Momentos compartidos: nuestros clientes disfrutando.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="piePagina">
+        <p>&copy; 2024 Sakura Makis. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
